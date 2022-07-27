@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-   padding: 2%;
+   
 }
 h1{
     color:#575757;
@@ -17,10 +17,6 @@ h1{
     border-radius: 100px;
     padding: 10px;
 }
-section{
-    display: flex;
-    margin-bottom: 200px;
-}
 .halfWidth{
     width:50% ;
 }
@@ -30,12 +26,58 @@ section{
 .orderSection img{
     width: 70%;
 }
+.orderSection{
+    display: flex;
+    margin-bottom: 200px;
+}
 .aboutSection{
     background-image: url(images/background/Frame\ 56.jpg);
     background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 200px;
     
     
 }
 .aboutSection img{
     width: 50%;
+}
+.recipieSection{
+    text-align: center;
+}
+
+.foodSection{
+    display: flex;
+    
+    margin: 2%;
+}
+.foodSection img{
+    width: 100%;
+    
+}
+.recipie{
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(183, 181, 181);
+
+}
+.rankingSection{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(183, 181, 181);
+}
+.ranking{
+    margin: 0px 80px 0px 80px ;
+}
+.footerSection footer{
+    text-align: center;
+}
+.footerSection{
+    background-color: black;
+}
+.whiteColor{
+    color: #929090;
 }
